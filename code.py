@@ -15,5 +15,6 @@ def print_base_freq_from_count(base_count_dict):
     for base in base_count_dict.keys():
         print(base + ':' + str(base_count_dict[base]/total))
 sequence = 'ATCTGACGCGCGCCGC'
+#new branch
 base_count_dict = get_base_count_from_sequence(sequence)
 print_base_freq_from_count(base_count_dict)
